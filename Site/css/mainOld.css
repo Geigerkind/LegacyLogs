@@ -1,0 +1,362 @@
+@font-face{
+	font-family: LegacyLogs;
+	src: url(raleway_thin-webfont.woff);
+}
+
+body{
+	font-family: LegacyLogs;
+	background-color: rgba(128, 141, 127, 1);
+	background-image: radial-gradient(circle, rgba(209,147,44, 0.2), rgba(106,71,21, 0.2), rgba(220,187,141, 0.9));
+	background-image: -webkit-radial-gradient(circle, rgba(209,147,44, 0.2), rgba(106,71,21, 0.2), rgba(220,187,141, 0.9));
+	background-image: -moz-radial-gradient(circle, rgba(209,147,44, 0.2), rgba(106,71,21, 0.2), rgba(220,187,141, 0.9));
+}
+
+input[type="text"], select, input[type="date"], input[type="number"], input[type="submit"], textarea{
+	background-color: rgba(100,100,100,0.5);
+	display: block;
+	margin: 0;
+	font-family: LegacyLogs;
+	font-size: 18px;
+	appearance: none;
+	box-shadow: none;
+	padding: 5px;
+	border: solid 1px #dcdcdc;
+	border-radius: 3px 3px 3px 3px;
+	transition: box-shadow 0.3s, border 0.3s;
+	color: #e5dddd;
+}
+
+input[type="text"]:focus, select:focus, input[type="date"]:focus, input[type="number"]:focus, textarea:focus {
+	border: solid 1px #e5820d;
+	box-shadow: 0 0 5px 1px #e5820d;
+}
+
+input[type="submit"]:hover{
+	border: solid 1px #e5820d;
+	box-shadow: 0 0 5px 1px #e5820d;
+	color: #e5820d;
+	cursor: pointer;
+}
+
+select{
+	font-size: 15px;
+}
+
+select option{
+	background: rgba(35,35,35,0.5);
+}
+
+select:focus{
+	border: solid 1px #e5820d;
+	box-shadow: 0 0 5px 1px #e5820d;
+}
+
+a{
+	text-decoration: none;
+	color: #ed9834;
+}
+
+.unselectable{
+	-webkit-user-select: none; /* Chrome/Safari */        
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* IE10+ */
+
+	/* Rules below not implemented in browsers yet */
+	-o-user-select: none;
+	user-select: none;
+}
+
+a:hover{
+	color: #e5820d;
+	text-shadow: 0.5px 0.5px black;
+}
+
+.border-round{
+	border-radius: 3px 3px 3px 3px;
+	-webkit-border-radius: 3px 3px 3px 3px;
+	-moz-border-radius: 3px 3px 3px 3px;
+}
+
+.border-round-left{
+	border-radius: 3px 0px 0px 3px;
+	-webkit-border-radius: 3px 0px 0px 3px;
+	-moz-border-radius: 3px 0px 0px 3px;
+}
+
+.border-round-right{
+	border-radius: 0px 3px 3px 0px;
+	-webkit-border-radius: 0px 3px 3px 0px;
+	-moz-border-radius: 0px 3px 3px 0px;
+}
+
+.border-round-bottom{
+	border-radius: 0px 0px 3px 3px;
+	-webkit-border-radius: 0px 0px 3px 3px;
+	-moz-border-radius: 0px 0px 3px 3px;
+}
+
+.min-hw{
+	min-height: 10px;
+	min-width: 10px;
+}
+
+.margin-center{
+	padding: 0px 0px 0px 0px;
+	margin: 0px auto;
+}
+
+.box-square{
+	background: rgba(85, 85, 85, 0.8);
+	border-radius: 3px 3px 3px 3px;
+}
+
+#navbar{
+	width: 1024px;
+	height: 50px;
+	margin-bottom: 10px;
+}
+
+.menu-item{
+	float: left;
+	height: 100%;
+	font-size: 20px;
+	color: white;
+	text-align: center;
+	line-height: 50px;
+	padding: 0px 10px 0px 10px;
+}
+
+.menu-item a{
+	color: white;
+}
+
+.menu-item a:hover, .dropdown:hover .dropdown-box div a:hover, .menu-item:hover{
+	color: #e5820d;
+	cursor: pointer;
+}
+
+.dropdown-box{
+	background-color: rgb(125,125,125);
+	min-width: 315px;
+	height: 40px;
+	position: absolute;
+	display: none;
+	z-index: 1;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown:hover .dropdown-box{
+	display: block;
+}
+
+.dropdown:hover .dropdown-box div{
+	float: left;
+	padding-left: 5px;
+	padding-right: 5px;
+	height: 100%;
+	line-height: 40px;
+	font-size: 16px;
+	text-align: center;
+}
+
+#home{
+	background-image: url(../images/favicon.png);
+	background-repeat: no-repeat;
+	background-size: 32px 32px;
+	background-position: 5% 50%;
+	width: 190px;
+	font-size: 24px;
+	font-weight: 900;
+	padding-left: 25px;
+	padding-right: 0px;
+}
+
+#search{
+	height: 40px;
+	float: right;
+	padding-top: 8px;
+	padding-right: 10px;
+}
+
+#search input{
+	width: 150px;
+	background-image: url(../images/search.png);
+	background-repeat: no-repeat;
+	background-position: 98% 50%;
+	background-size: 24px 24px;
+}
+
+#content{
+	min-height: 10px;
+	width: 1024px;
+}
+
+#footer{
+	width: 100%;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	color: white;
+	float: left;
+}
+
+#footer a{
+	color: white;
+}
+
+#footer a:hover{
+	color: #e5820d;
+}
+
+.align-right{
+	text-align: right;
+}
+
+.float-left{
+	float: left;
+}
+
+.float-right{
+	float: right;
+}
+
+.margin-left{
+	margin-left: 10px;
+}
+
+.margin-top{
+	margin-top: 10px;
+}
+
+.margin-bottom{
+	margin-bottom: 10px;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: white;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: white;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: white;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: white;
+}
+
+.sb-menu-item a, .mn-menu-item a{
+	color: white;
+}
+.sb-menu-item a:hover, .mn-menu-item a:hover{
+	color: #e5820d;
+}
+
+#cookie{
+	position: fixed;
+	width: 100%;
+	height: 100px;
+	background-color: rgb(35,35,35);
+	bottom: 0px;
+	left: 0px;
+	font-family: Open Sans;
+	font-size: 16px;
+}
+#cookie div{
+	width: 1024px;
+	margin: 20px auto;
+	line-height: 15px;
+	color: white;
+}
+#cookie button{
+	margin-top: 5px;
+	width: 75px;
+	height: 30px;
+	background-color: rgba(85, 85, 85, 0.8);
+	color: white;
+	font-family: Open Sans;
+	border: none;
+	-webkit-box-shadow: 10px 10px 13px -14px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 13px -14px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 13px -14px rgba(0,0,0,0.75);
+}
+#cookie button:hover{
+	color: #e5820d;
+	cursor: pointer;
+}
+
+.color-warrior, .color-{
+	color: rgb(199, 156, 110);
+}
+.color-rogue{
+	color: rgb(255, 245, 105);
+}
+.color-priest{
+	color: rgb(255, 255, 255);
+}
+.color-hunter{
+	color: rgb(171, 212, 115);
+}
+.color-druid{
+	color: rgb(255, 125, 0);
+}
+.color-mage{
+	color: rgb(105, 204, 240);
+}
+.color-warlock{
+	color: rgb(148, 130, 201);
+}
+.color-paladin{
+	color: rgb(245, 140, 186);
+}
+.color-shaman{
+	color: rgb(0,112,222);
+}
+.bgcolor-{
+	background-color: #f1a165;
+	background-image: linear-gradient(to bottom, #f1a165, #f36d0a);
+}
+.bgcolor-warrior{
+	background-color: rgb(199, 156, 110);
+}
+.bgcolor-rogue{
+	background-color: rgb(255, 245, 105);
+}
+.bgcolor-priest{
+	background-color: rgb(255, 255, 255);
+}
+.bgcolor-hunter{
+	background-color: rgb(171, 212, 115);
+}
+.bgcolor-druid{
+	background-color: rgb(255, 125, 0);
+}
+.bgcolor-mage{
+	background-color: rgb(105, 204, 240);
+}
+.bgcolor-warlock{
+	background-color: rgb(148, 130, 201);
+}
+.bgcolor-paladin{
+	background-color: rgb(245, 140, 186);
+}
+.bgcolor-shaman{
+	background-color: rgb(0,112,222);
+}
+
+.marked{
+	font-weight: 900;
+}
+
+.alliance{
+	color: #1f69cf;
+	text-shadow: 0.3px 0.3px black;
+}
+
+.horde{
+	color: #c40f0f;
+	text-shadow: 0.3px 0.3px black;
+}
+.min-height{
+	min-height: 10px;
+}

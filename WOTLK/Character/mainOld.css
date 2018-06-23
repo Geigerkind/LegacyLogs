@@ -1,0 +1,86 @@
+#cont{
+	width: 100%;
+	min-height: 10px;
+	overflow: hidden;
+}
+
+#player{
+	background-repeat: no-repeat;
+	background-position: 1% 75%;
+	width: 979px;
+	float: left;
+	height: 40px;
+	font-size: 30px;
+	font-weight: 900;
+	line-height: 50px;
+	padding-left: 35px;
+	color: white;
+}
+
+.sep{
+	width: 50%;
+	float: left;
+}
+
+.half{
+	width: 500px;
+	margin: 10px auto;
+	min-height: 10px;
+	color: white;
+	padding-bottom: 10px;
+}
+
+.title{
+	width: 490px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 24px;
+	font-weight: 700;
+	margin-left: 10px;
+}
+
+.row{
+	width: 480px;
+	margin: 5px auto;
+	height: 20px;
+	line-height: 20px;
+	font-size: 12px;
+	border-top: 0.5px solid gray;
+	font-family: Open Sans;
+}
+
+.row .name, .row .guild, .row .date, .row .type, .row .cat, .row .rank, .row .value{
+	float: left;
+}
+
+.row .name, .row .guild{
+	width: 165px;
+}
+
+.row .date{
+	width: 85px;
+}
+
+.row .rank{
+	width: 25.83px;
+}
+
+.row .value, .row .type{
+	width: 50px;
+}
+
+.row .cat{
+	width: 140px;
+	height: 20px;
+	overflow: hidden;
+}
+
+#mode{
+	margin-top: 10px;
+	width: 200px;
+	float: right;
+}
+
+#player div{
+	float: left;
+}

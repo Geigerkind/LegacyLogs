@@ -1,0 +1,59 @@
+#cont{
+	width: 1004px;
+	height: 240px;
+	padding: 0px 10px 10px 10px;
+}
+
+.left{
+	margin-left: 10px;
+}
+
+.instance{
+	float: left;
+	width: 471px;
+	height: 50px;
+	margin-top: 10px;
+	line-height: 50px;
+	font-size: 44px;
+	padding-left: 25px;
+	background-repeat: no-repeat;
+}
+
+.instance a{
+	font-weight: 700;
+	color: white;
+	text-shadow: 0.5px 0.5px black;
+}
+
+.instance a:hover{
+	color: #e5820d;
+	text-shadow: 0.5px 0.5px black;
+}
+
+#mc{
+	background-image: url(images/mc.png);
+}
+
+#ony{
+	background-image: url(images/ony.png);
+}
+
+#bwl{
+	background-image: url(images/bwl.png);
+}
+
+#zg{
+	background-image: url(images/zg.png);
+}
+
+#aq20{
+	background-image: url(images/aq20.png);
+}
+
+#aq40{
+	background-image: url(images/aq40.png);
+}
+
+#naxx{
+	background-image: url(images/naxx.png);
+}

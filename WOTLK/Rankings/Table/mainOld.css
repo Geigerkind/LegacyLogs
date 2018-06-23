@@ -1,0 +1,151 @@
+.box-square{
+	float: left;
+}
+
+.menu{
+	width: 200px;
+	height: 160px;
+}
+
+.menu select{
+	width: 180px;
+	margin: 10px auto;
+}
+
+#but{
+	margin-left: 10px;
+}
+
+#info{
+	width: 604px;
+	height: 160px;
+	margin-left: 10px;
+	font-family: Open Sans;
+	font-size: 14px;
+}
+
+#cont{
+	width: 1024px;
+	min-height: 10px;
+	margin-top: 10px;
+}
+
+.button{
+	background-color: rgba(85,85,85,0.8);
+	width: 170px;
+	height: 25px;
+	line-height: 25px;
+	margin: 10px auto;
+	padding-left: 10px;
+	border: solid 0.5px #e5820d;
+	box-shadow: 0 0 2px 0.5px #e5820d;
+	color: white;
+	font-weight: 700;
+}
+
+.button:hover{
+	background-color: rgba(85,85,85,1);
+	color: #e5820d;
+	cursor: pointer;
+}
+
+.button a{
+	color: white;
+}
+
+.button a:hover, .selected{
+	color: #e5820d;
+}
+
+.selected a{
+	color: #e5820d;
+}
+
+#title{
+	width: 594px;
+	min-height: 30px;
+	line-height: 30px;
+	font-size: 20px;
+	color: white;
+	padding-left: 10px;
+	font-weight: 700;
+	font-family: LegacyLogs;
+}
+
+#info-con{
+	width: 589px;
+	height: 130px;
+	color: white;
+	padding-left: 10px;
+}
+
+.row{
+	width: 1000px;
+	height: 30px;
+	line-height: 30px;
+	color: white;
+	margin: 0px auto;
+	font-family: Open Sans;
+	font-size: 14px;
+}
+
+.row div{
+	height: 100%;
+	float: left;
+}
+
+.rank{
+	width: 45px;
+	padding-right: 10px;
+	text-align: right;
+}
+
+.realm{
+	padding-left: 30px;
+	width: 100px;
+}
+
+.char{
+	background-repeat: no-repeat;
+	background-position: left;
+	padding-left: 25px;
+	width: 125px;
+}
+
+.guild{
+	background-repeat: no-repeat;
+	background-position: left;
+	background-size: 30px 30px;
+	padding-left: 35px;
+	width: 140px;
+}
+
+.value{
+	width: 50px;
+	text-align: right;
+}
+
+.time{
+	padding-left: 25px;
+	width: 40px;
+}
+
+.date{
+	padding-left: 20px;
+	width: 100px;
+	text-align: left;
+}
+
+.development{
+	background-repeat: no-repeat;
+	background-position: right;
+	padding-left: 15px;
+	width: 60px;
+}
+
+.t-head{
+	font-weight: 900;
+	font-family: LegacyLogs;
+	font-size: 16px;
+	text-align: left;
+}

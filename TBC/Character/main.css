@@ -1,0 +1,236 @@
+table{
+	width: 100%;
+	position: relative;
+	border: 0.1px solid rgba(255,255,255,0.1);
+	font-size: 14px;
+	text-align: left;
+}
+
+th{
+	height: 40px;
+	width: 10%;
+	padding-left: 8px;
+	background-color: rgba(242,143,69,0.1);
+	font-size: 16px;
+}
+
+td{
+	height: 40px;
+	width: 10%;
+	padding-left: 7px;
+	line-height: 40px;
+}
+
+td:first-child:after {
+  content: ' ';
+  margin-top: -1px;
+  display: inline-block;
+  height: 1px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+50,ffffff+100&0+0,0.8+50,0+100 */
+background: -moz-linear-gradient(left,  rgba(255,255,255,0) 0%, rgba(255,255,255,0.8) 50%, rgba(255,255,255,0) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  rgba(255,255,255,0) 0%,rgba(255,255,255,0.8) 50%,rgba(255,255,255,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  rgba(255,255,255,0) 0%,rgba(255,255,255,0.8) 50%,rgba(255,255,255,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 */
+}
+
+.table {
+  color: #fff;
+  font-family: "Source Sans Pro";
+  min-height: 10px;
+  width: 1024px;
+  position: relative;
+  text-align: center;
+  margin: 0px auto;
+  margin-top: 20px;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&0+0,0.05+100 */
+	background: -moz-linear-gradient(top,  rgba(255,255,255,0) 0%, rgba(255,255,255,0.05) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,0.05) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  rgba(255,255,255,0) 0%,rgba(255,255,255,0.05) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#0dffffff',GradientType=0 ); /* IE6-9 */
+}
+
+.table:before, .table:after, .right:before, .right:after {
+  content: ' ';
+  display: inline-block;
+  position: absolute;
+  opacity: .6;
+}
+
+.table:before, .table:after, .right:before, .right:after {
+  opacity: .4;
+}
+
+.table:before {
+  bottom: -5px;
+  left: -5px;
+  height: 1px;
+  background: -webkit-linear-gradient(left, rgba(255,255,255,1) 0%,rgba(255,255,255,1) 28%,rgba(255,255,255,0) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, rgba(255,255,255,1) 0%,rgba(255,255,255,1) 28%,rgba(255,255,255,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 */
+
+  width: 40%;
+  display: inline-block;
+}
+
+.table:after {
+  bottom: -5px;
+  left: -5px;
+  width: 1px;
+  background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 72%,rgba(255,255,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 72%,rgba(255,255,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+
+
+  height: 45%;
+  display: inline-block;
+}
+
+.right:after {
+  right: -5px;
+  top: -5px;
+  width: 1px;
+  background: -webkit-linear-gradient(bottom, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 72%,rgba(255,255,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to top, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 72%,rgba(255,255,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+  height: 45%;
+  display: inline-block;
+}
+.right:before {
+  right: -5px;
+  top: -5px;
+  height: 1px;
+  width: 40%;
+  display: inline-block;
+  background: -webkit-linear-gradient(right, rgba(255,255,255,1) 0%,rgba(255,255,255,1) 28%,rgba(255,255,255,0) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to left, rgba(255,255,255,1) 0%,rgba(255,255,255,1) 28%,rgba(255,255,255,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 */
+}
+
+.right{
+	width: 100%;
+	height: 100%;
+	text-align: left;
+	overflow: hidden;
+}
+
+.top{
+	margin-top: 20px;
+	height: 40px;
+}
+
+.top select{
+	width: 150px;
+	float: left;
+	margin-left: 5px;
+}
+
+.pseudoButton{
+	height: 38px;
+	float: left;
+	margin-left: 5px;
+	line-height: 38px;
+	cursor: pointer;
+}
+
+.ttitle{
+	height: 40px;
+	width: 595px;
+	background: -moz-linear-gradient(top,  rgba(242,143,69,0) 0%, rgba(242,143,69,0.05) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  rgba(242,143,69,0) 0%,rgba(242,143,69,0.05) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  rgba(242,143,69,0) 0%,rgba(242,143,69,0.05) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f28f45', endColorstr='#f28f45',GradientType=0 ); /* IE6-9 */
+	text-align: left;
+	line-height: 40px;
+	font-size: 150%;
+	padding-left: 10px;
+	border: 0.01px solid rgba(255,255,255,0.1);
+    font-family: "Source Sans Pro";
+	float:left;
+}
+
+.ranks{
+	font-size: 13px;
+}
+
+.nsstring{
+	width: 20%;
+}
+
+.nlstring{
+	width: 40%;
+}
+
+.nlstring img{
+	height: 30px;
+	width: 30px;
+	vertical-align: middle;
+	margin-right: 5px;
+}
+
+.pve img{
+	width: 20px;
+	height: 20px;
+	-webkit-box-shadow: inset 4px 4px 24px -7px rgba(242,143,69,0.62);
+	-moz-box-shadow: inset 4px 4px 24px -7px rgba(242,143,69,0.62);
+	box-shadow: inset 4px 4px 24px -7px rgba(242,143,69,0.62);
+	border: 1px solid #f28f45;
+}
+
+.ttitle img{
+	vertical-align: middle;
+	height: 35px;
+	width: 30px;
+	margin-top: -5px;
+	margin-right: 5px;
+}
+
+.sleft, .sright{
+	min-height: 10px;
+	width: 507px;
+	float: left;
+	overflow: hidden;
+}
+
+.sright{
+	margin-left: 10px;
+}
+
+.num{
+	width: 5.5%;
+	cursor: pointer;
+}
+
+.numv{
+	width: 8%;
+}
+
+.cont{
+	padding-bottom: 20px;
+}
+
+.lstring{
+	width: 35%;
+	overflow: hidden;
+}
+
+.sstring{
+	width: 29%;
+}
+
+.margin{
+	margin-top: 10px;
+}
+
+.marginbot{
+	margin-bottom: 10px;
+}
+
+.fulllist{
+	font-size: 0.8em;
+	text-align: right;
+	padding-right: 10px;
+}

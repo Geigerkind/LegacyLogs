@@ -1,0 +1,46 @@
+#buttonbar{
+	width: 1004px;
+	padding: 10px 10px 10px 10px;
+	height: 30px;
+	margin-bottom: 10px;
+}
+
+#checkbox{
+	width: 1004px;
+	padding: 10px 10px 10px 10px;
+	min-height: 30px;
+	overflow: hidden;
+}
+
+.sep{
+	width: 251px;
+	min-height: 10px;
+	color: white;
+	font-family: Open Sans;
+	float: left;
+}
+
+.sep .title{
+	font-weight: 900;
+}
+
+.sep div{
+	width: 251px;
+	height: 20px;
+	font-size: 12px;
+}
+
+.margin-left{
+	margin-left: 5px;
+}
+
+select{
+	float: left;
+}
+
+input[type="submit"]{
+	float:right;
+	height: 30px;
+	line-height: 15px;
+	width: 100px;
+}

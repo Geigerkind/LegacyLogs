@@ -1,0 +1,185 @@
+.basicbar{
+	width: 1004px;
+	min-height: 20px;
+	padding: 10px 10px 10px 10px;
+	margin-bottom: 10px;
+	color: white;
+	overflow: hidden;
+}
+
+#infobar{
+}
+
+#infobar .title{
+	width: 50%;
+	float: left;
+}
+
+#infobar .subtitle{
+	width: 100%;
+	float: left;
+	font-family: Open Sans;
+}
+
+#mainnavbar{
+}
+
+#mainnavbar select{
+	width: 200px;
+	float: left;
+}
+
+#attempt, #player{
+	margin-left: 5px;
+}
+
+.mn-menu-item, .sb-menu-item{
+	height: 30px;
+	line-height: 30px;
+	font-size: 20px;
+	font-weight: 900;
+	padding-left: 10px;
+	padding-right: 10px;
+	float: left;
+}
+
+.title{
+	height: 30px;
+	line-height: 25px;
+	font-size: 24px;
+	font-weight: 900;
+}
+
+.subtitle{
+	height: 15px;
+	line-height: 15px;
+	font-size: 15px;
+}
+
+/* General part end here */
+
+.sb-menu-item{
+	height: 20px;
+	line-height: 20px;
+	font-size: 16px;
+}
+
+.sb-menu-item:hover .sb-dropdown{
+	display: block;
+}
+
+.sb-dropdown{
+	background-color: rgb(125,125,125);
+	height: 30px;
+	line-height: 30px;
+	font-size: 14px;
+	min-width: 10px;
+	position: absolute;
+	display: none;
+	z-index: 1;
+}
+
+.sb-dropdown div{
+	float: left;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.t-head{
+	font-weight: 900;
+	font-family: LegacyLogs;
+	font-size: 16px;
+}
+
+#cont{
+	width: 100%;
+	min-height: 10px;
+	overflow: hidden;
+}
+
+.sep{
+	width: 506px;
+	min-height: 10px;
+	float: left;
+}
+
+.buffbox{
+	width: 487px;
+	min-height: 10px;
+	padding: 10px 10px 10px 10px;
+	color: white;
+}
+
+.buffbox .title{
+	font-size: 16px;
+	border-bottom: 0.3px solid gray;
+}
+
+.row{
+	width: 100%;
+	font-family: Open Sans;
+	font-size: 12px;
+	height: 30px;
+	line-height: 30px;
+}
+
+.row div{
+	float: left;
+}
+
+.name{
+	background-repeat: no-repeat;
+	background-position: left;
+	padding-left: 25px;
+	width: 155px;
+	height: 30px;
+	overflow: hidden;
+}
+
+.count, .uptime{
+	width: 80px;
+}
+
+.source{
+	width: 145px;
+}
+
+.config{
+	background-image: url(../img/config.png);
+	background-size: 20px 20px;
+	background-repeat: no-repeat;
+	width: 20px;
+	height: 20px;
+	float: right;
+}
+
+.config:hover{
+	cursor: pointer;
+}
+
+.config:hover #c-menu{
+	display: block;
+}
+
+#c-menu{
+	display: none;
+	background-color: rgb(125,125,125);
+	position: absolute;
+	margin-top: 18px;
+	margin-left: -50px;
+	width: 105px;
+	min-height: 10px;
+	z-index: 1;
+}
+
+#c-menu div{
+	background-image: url(../img/check.png);
+	background-repeat: no-repeat;
+	background-position: 5% 50%;
+	width: 85px;
+	height: 20px;
+	font-size: 14px;
+	font-family: Open Sans;
+	text-shadow: 0.5px 0.5px black;
+	padding: 5px 5px 5px 25px;
+}

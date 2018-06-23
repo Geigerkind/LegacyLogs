@@ -1,0 +1,344 @@
+#cont{
+	width: 1024px;
+	min-height: 240px;
+	overflow: hidden;
+	padding-bottom: 10px;
+}
+
+.sep-container{
+	width: 100%;
+	min-height: 10px;
+	float: left;
+	padding-bottom: 10px;
+}
+
+.sep-title{
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	color: white;
+	font-weight: 900;
+	font-size: 30px;
+	padding-left: 10px;
+	text-shadow: 0.5px 0.5px black;
+}
+
+.sep{
+	width: 50%;
+	min-height: 10px;
+	float: left;
+}
+
+.instance{
+	float: left;
+	width: 471px;
+	min-height: 50px;
+	margin-top: 10px;
+	line-height: 50px;
+	font-size: 44px;
+	font-weight: 900;
+	padding-left: 25px;
+	background-repeat: no-repeat;
+	margin-left: 10px;
+	color: white;
+	text-shadow: 1px 1px black;
+}
+
+.instance a{
+	color: white;
+}
+
+.instance a:hover{
+	color: #e5820d;
+	text-shadow: 1.5px 1.5px black;
+}
+
+.instance:hover{
+	cursor: pointer;
+}
+
+.boss-table{
+	width: 496px;
+	min-height: 10px;
+	margin-left: -25px;
+	float: left;
+	display: none;
+}
+
+.boss-table div{
+	width: 471px;
+	height: 30px;
+	line-height: 30px;
+	border-top: 0.5px solid #e5820d;
+	color: white;
+	padding-left: 25px;
+	font-size: 18px;
+	color: #cfcfcf;
+	text-shadow: 0.5px 0.5px black;
+}
+
+.left{
+	margin-left: 5px;
+}
+
+#luci{
+	background-image: url(images/luci.png);
+}
+#mag{
+	background-image: url(images/magma.png);
+}
+#geh{
+	background-image: url(images/geh.png);
+}
+#garr{
+	background-image: url(images/garr.png);
+}
+#ged{
+	background-image: url(images/geddon.png);
+}
+#shaz{
+	background-image: url(images/shaz.png);
+}
+#sul{
+	background-image: url(images/sul.png);
+}
+#gole{
+	background-image: url(images/gole.png);
+}
+#major{
+	background-image: url(images/major.png);
+}
+#rag{
+	background-image: url(images/ragna.png);
+}
+#raz{
+	background-image: url(images/raz.png);
+}
+#vae{
+	background-image: url(images/vae.png);
+}
+#bro{
+	background-image: url(images/bro.png);
+}
+#fir{
+	background-image: url(images/fir.png);
+}
+#ebo{
+	background-image: url(images/ebo.png);
+}
+#fla{
+	background-image: url(images/fla.png);
+}
+#chr{
+	background-image: url(images/chr.png);
+}
+#nef{
+	background-image: url(images/nef.png);
+}
+#kur{
+	background-image: url(images/kur.png);
+}
+#raj{
+	background-image: url(images/raj.png);
+}
+#moa{
+	background-image: url(images/moa.png);
+}
+#bur{
+	background-image: url(images/bur.png);
+}
+#aya{
+	background-image: url(images/aya.png);
+}
+#oss{
+	background-image: url(images/oss.png);
+}
+#pat{
+	background-image: url(images/pat.png);
+}
+#gro{
+	background-image: url(images/gro.png);
+}
+#glu{
+	background-image: url(images/glu.png);
+}
+#tha{
+	background-image: url(images/tha.png);
+}
+#anu{
+	background-image: url(images/anu.png);
+}
+#gra{
+	background-image: url(images/gra.png);
+}
+#mae{
+	background-image: url(images/mae.png);
+}
+#ins{
+	background-image: url(images/ins.png);
+}
+#got{
+	background-image: url(images/got.png);
+}
+#the{
+	background-image: url(images/the.png);
+}
+#not{
+	background-image: url(images/not.png);
+}
+#hei{
+	background-image: url(images/hei.png);
+}
+#loa{
+	background-image: url(images/loa.png);
+}
+#sap{
+	background-image: url(images/sap.png);
+}
+#kel{
+	background-image: url(images/kel.png);
+}
+#ony{
+	background-image: url(images/ony.png);
+}
+#kaz{
+	background-image: url(images/kaz.png);
+}
+#azu{
+	background-image: url(images/azu.png);
+}
+#let{
+	background-image: url(images/let.png);
+}
+#eme{
+	background-image: url(images/eme.png);
+}
+#yso{
+	background-image: url(images/yso.png);
+}
+#tae{
+	background-image: url(images/tae.png);
+}
+#jek{
+	background-image: url(images/jek.png);
+}
+#ven{
+	background-image: url(images/ven.png);
+}
+#mar{
+	background-image: url(images/mar.png);
+}
+#blo{
+	background-image: url(images/blo.png);
+}
+#gri{
+	background-image: url(images/gri.png);
+}
+#haz{
+	background-image: url(images/haz.png);
+}
+#wus{
+	background-image: url(images/wus.png);
+}
+#gah{
+	background-image: url(images/gah.png);
+}
+#thek{
+	background-image: url(images/thek.png);
+}
+#arl{
+	background-image: url(images/arl.png);
+}
+#hex{
+	background-image: url(images/hex.png);
+}
+#hak{
+	background-image: url(images/hak.png);
+}
+#ske{
+	background-image: url(images/ske.png);
+}
+#bug{
+	background-image: url(images/bug.png);
+}
+#bat{
+	background-image: url(images/bat.png);
+}
+#fan{
+	background-image: url(images/fan.png);
+}
+#vis{
+	background-image: url(images/vis.png);
+}
+#huh{
+	background-image: url(images/huh.png);
+}
+#emp{
+	background-image: url(images/emp.png);
+}
+#our{
+	background-image: url(images/our.png);
+}
+#cth{
+	background-image: url(images/cth.png);
+}
+
+.instance .toggle{
+	background-image: url(images/toggle.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 40px 40px;
+	width: 50px;
+	height: 50px;
+	float: right;
+	cursor: pointer;
+}
+
+#mc{
+	background-image: url(images/mc.png);
+}
+
+#single{
+	background-image: url(images/single.png);
+}
+
+#bwl{
+	background-image: url(images/bwl.png);
+}
+
+#zg{
+	background-image: url(images/zg.png);
+}
+
+#aq20{
+	background-image: url(images/aq20.png);
+}
+
+#aq40{
+	background-image: url(images/aq40.png);
+}
+
+#naxx{
+	background-image: url(images/naxx.png);
+}
+#mcbwl{
+	background-image: url(images/m-mcbwl.png);
+}
+#naxxaq40bwlmc{
+	background-image: url(images/m-naxxaq40bwlmc.png);
+}
+#aq40bwlmc{
+	background-image: url(images/m-aq40bwlmc.png);
+}
+#aq40bwl{
+	background-image: url(images/m-aqbwl.png);
+}
+#naxxaq40bwl{
+	background-image: url(images/m-naxxaqbwl.png);
+}
+#naxxaq40{
+	background-image: url(images/m-naxxaq40.png);
+}
+#custom{
+	background-image: url(images/m-custom.png);
+}

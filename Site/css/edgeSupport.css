@@ -1,0 +1,15 @@
+@supports (-ms-ime-align:auto) {
+	.semiBigEdge, .semiBigEdge div a{
+		font-size: 17.5px !important;
+	}
+	.c-navEdge{
+		font-size: 16.5px !important;
+	}
+	.c-navEdge li{
+		font-weight: 500 !important;
+	}
+}
+
+.testnavopen{
+	display:block !important;
+}

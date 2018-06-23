@@ -1,0 +1,118 @@
+#cont{
+	width: 100%;
+	min-height: 10px;
+	overflow: hidden;
+	padding-bottom: 10px;
+}
+
+#guild{
+	width: 1004px;
+	float: left;
+	height: 40px;
+	font-size: 30px;
+	font-weight: 900;
+	line-height: 50px;
+	padding-left: 10px;
+	color: white;
+}
+
+#left{
+	width: 300px;
+	min-height: 10px;
+	float: left;
+	margin-left: 5px;
+}
+
+#right{
+	width: 704px;
+	min-height: 10px;
+	float: left;
+	margin-left: 5px;
+	margin-top: 10px;
+	color: white;
+}
+
+#r-raids, #r-kills{
+	width: 290px;
+	margin: 10px auto;
+	color: white;
+	padding-bottom: 5px;
+}
+
+.title{
+	width: 280px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 24px;
+	font-weight: 700;
+	margin-left: 10px;
+}
+
+.row, .t-row{
+	width: 270px;
+	margin: 5px auto;
+	height: 20px;
+	line-height: 20px;
+	font-size: 12px;
+	border-top: 0.5px solid gray;
+	font-family: Open Sans;
+}
+
+.row div{
+	float: left;
+}
+
+.name {
+	width: 60%;
+}
+
+.date{
+	width: 40%;
+}
+
+.t-row{
+	width: 690px;
+}
+
+.t-row div{
+	float: left;
+}
+
+.t-rank{
+	width: 28px;
+}
+
+.t-type{
+	width: 50px;
+}
+
+.t-value{
+	width: 50px;
+}
+
+.t-char{
+	background-repeat: no-repeat;
+	padding-left: 25px;
+	width: 125px;
+}
+
+.t-boss{
+	width: 170px;
+	height: 20px;
+	overflow: hidden;
+}
+
+.t-date{
+	width: 100px;
+}
+
+
+#mode{
+	margin-top: 10px;
+	width: 200px;
+	float: right;
+}
+
+#guild div{
+	float: left;
+}

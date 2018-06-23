@@ -1,0 +1,217 @@
+.basicbar{
+	width: 1004px;
+	min-height: 20px;
+	padding: 10px 10px 10px 10px;
+	margin-bottom: 10px;
+	color: white;
+	overflow: hidden;
+}
+
+#infobar{
+}
+
+#infobar .title{
+	width: 50%;
+	float: left;
+}
+
+#infobar .subtitle{
+	width: 100%;
+	float: left;
+	font-family: Open Sans;
+}
+
+#mainnavbar{
+}
+
+#mainnavbar select{
+	width: 200px;
+	float: left;
+}
+
+#attempt, #player{
+	margin-left: 5px;
+}
+
+.mn-menu-item, .sb-menu-item{
+	height: 30px;
+	line-height: 30px;
+	font-size: 20px;
+	font-weight: 900;
+	padding-left: 10px;
+	padding-right: 10px;
+	float: left;
+}
+
+.title{
+	height: 30px;
+	line-height: 25px;
+	font-size: 24px;
+	font-weight: 900;
+}
+
+.subtitle{
+	height: 15px;
+	line-height: 15px;
+	font-size: 15px;
+}
+
+/* General part end here */
+
+.sb-menu-item{
+	height: 20px;
+	line-height: 20px;
+	font-size: 16px;
+}
+
+.sb-menu-item:hover .sb-dropdown{
+	display: block;
+}
+
+.sb-dropdown{
+	background-color: rgb(125,125,125);
+	height: 30px;
+	line-height: 30px;
+	font-size: 14px;
+	min-width: 10px;
+	position: absolute;
+	display: none;
+	z-index: 1;
+}
+
+.sb-dropdown div{
+	float: left;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+#graph{
+	height: 300px;
+}
+
+#table{
+	min-height: 270px;
+	margin-bottom: 0px;
+}
+
+.e-row{
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	font-family: Open Sans;
+	font-size: 12px;
+}
+
+.e-table{
+	background-color: rgba(85,85,85,0.8);
+	width: 477px;
+	height: 260px;
+	float: left;
+	padding: 10px 10px 10px 10px;
+}
+
+.e-table .title, #loot .title{
+	font-size: 16px;
+	border-bottom: 0.3px solid gray;
+}
+
+.e-row div{
+	float: left;
+}
+
+.name{
+	background-repeat: no-repeat;
+	background-position: left;
+	padding-left: 25px;
+	width: 110px;
+}
+
+.count{
+	width: 30px;
+}
+
+.spell{
+	background-repeat: no-repeat;
+	background-position: left;
+	padding-left: 25px;
+	width: 122px;
+	height: 30px; 
+	overflow: hidden;
+}
+.amount{
+	width: 315px;
+}
+
+.amount div{
+	float: left;
+}
+
+.amount-perc{
+	width: 60px;
+}
+
+.amount-sbar{
+	width: 173px;
+	height: 16px;
+	border: 1px solid gray;
+	margin-top: 7px;
+}
+
+.amount-sbar-progress{
+	height: 16px;
+}
+
+.amount-number{
+	width: 75px;
+	padding-left: 5px;
+}
+
+.t-head{
+	font-weight: 900;
+}
+
+.e-content{
+	width: 477px;
+	height: 200px;
+	overflow-y: scroll;
+}
+
+.config{
+	background-image: url(../img/config.png);
+	background-size: 20px 20px;
+	background-repeat: no-repeat;
+	width: 20px;
+	height: 20px;
+	float: right;
+}
+
+.config:hover{
+	cursor: pointer;
+}
+
+.config:hover #c-menu{
+	display: block;
+}
+
+#c-menu{
+	display: none;
+	background-color: rgb(125,125,125);
+	position: absolute;
+	margin-top: 18px;
+	margin-left: -50px;
+	width: 105px;
+	min-height: 10px;
+	z-index: 1;
+}
+
+#c-menu div{
+	background-image: url(../img/check.png);
+	background-repeat: no-repeat;
+	background-position: 5% 50%;
+	width: 85px;
+	height: 20px;
+	font-size: 14px;
+	font-family: Open Sans;
+	text-shadow: 0.5px 0.5px black;
+	padding: 5px 5px 5px 25px;
+}

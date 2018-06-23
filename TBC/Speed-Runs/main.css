@@ -1,0 +1,42 @@
+.margin-half{
+	margin-left: 24px;
+}
+
+.ref-button{
+	margin-top: 20px;
+	background-size: cover;
+	padding: 12px 10px;
+	background-color: #141618;
+	border: 1px solid #f28f45;
+	outline: none;
+	font-size: 1.6em;
+	vertical-align: middle;
+	text-align: left;
+	height: 50px;
+	color: #fff;
+	width: 478px;
+	float: left;
+	font-family: "Source Sans Pro";
+}
+
+.ref-button:hover{
+	background-color: #202325;
+	color: #f28f45;
+}
+
+.ref-button img{
+	width: 50%;
+	height: 100%;
+	vertical-align: middle;
+	filter: drop-shadow(0.2px 0.2px 1.5px #ccc);
+	border-radius: 2px 2px 2px 2px;
+	float: left;
+}
+
+.ref-button div{
+	width: 50%;
+	height: 100%;
+	float: left;
+	text-align: center;
+	line-height: 50px;
+}

@@ -1,0 +1,105 @@
+.ref-button{
+	margin-top: 20px;
+	background-size: cover;
+	padding: 12px 10px;
+	background-color: #141618;
+	border: 1px solid #f28f45;
+	outline: none;
+	font-size: 1.6em;
+	vertical-align: middle;
+	text-align: left;
+	min-height: 50px;
+	color: #fff;
+	width: 478px;
+	float: left;
+	font-family: "Source Sans Pro";
+}
+
+.ref-button:hover{
+	background-color: #202325;
+}
+
+.ref-button img{
+	width: 50%;
+	height: 50px;
+	vertical-align: middle;
+	filter: drop-shadow(0.2px 0.2px 1.5px #ccc);
+	border-radius: 2px 2px 2px 2px;
+	float: left;
+}
+
+a:hover .ref-button div{
+	color: #f28f45;
+}
+
+.ref-button div{
+	width: 50%;
+	height: 50px;
+	float: left;
+	text-align: center;
+	line-height: 50px;
+}
+
+.ref-button img:hover{
+	cursor: pointer;
+}
+
+.ref-button div a:hover, .ref-button table tr td a:hover{
+	color: #f28f45;
+}
+
+.ref-button table{
+	float: left;
+	display: none;
+}
+
+table{
+	margin-top: 12px;
+	width: 100%;
+	position: relative;
+	border: 0.1px solid rgba(255,255,255,0.1);
+	font-size: 20px;
+}
+
+td{
+	height: 40px;
+	width: 100%;
+	padding-left: 10px;
+	line-height: 40px;
+}
+
+td a{
+	color: #fff;
+}
+
+td:first-child:after {
+  content: ' ';
+  margin-top: 42px;
+  display: inline-block;
+  height: 1px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+50,ffffff+100&0+0,0.8+50,0+100 */
+background: -moz-linear-gradient(left,  rgba(255,255,255,0) 0%, rgba(255,255,255,0.8) 50%, rgba(255,255,255,0) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  rgba(255,255,255,0) 0%,rgba(255,255,255,0.8) 50%,rgba(255,255,255,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  rgba(255,255,255,0) 0%,rgba(255,255,255,0.8) 50%,rgba(255,255,255,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 */
+}
+
+.left, .right{
+	width: 500px;
+	float: left;
+	min-height: 200px;
+	overflow: hidden;
+	padding-bottom: 60px;
+}
+
+.right{
+	margin-left: 24px;
+}
+
+a{
+	color: #fff !important;
+}

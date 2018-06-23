@@ -1,0 +1,17 @@
+User-agent: *
+Disallow: /Modules
+Disallow: /External
+Disallow: /DBC
+Disallow: /Database
+Disallow: /Site
+Disallow: /getNews.php
+Disallow: /init.php
+Disallow: /RegnerateRankings.php
+Disallow: /version.php
+Disallow: /versionTBC.php
+Disallow: /versionWOTLK.php
+Disallow: /versionLauncher.php
+Disallow: /versionLLA.php
+Disallow: /versionLLATBC.php
+Disallow: /versionLLAWOTLK.php
+Disallow: /php.ini
